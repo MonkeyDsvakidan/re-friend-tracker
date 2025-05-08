@@ -1,6 +1,6 @@
 {
     "application": {
-        "title": "Requirements Engineering Friend Tracker (FS2025)",
+        "title": "Aladins Friend Tracker",
         "formList": [
             {
                 "id": "FriendForm",
@@ -21,6 +21,13 @@
                         "width": 1,
                         "required": true
                     },
+                    {
+                        "id": "nickname",
+                        "type": "text",
+                        "name": "Nickname",
+                        "width": 2,
+                        "required": true
+                       },
                     {
                         "id":   "location",
                         "type": "autocomplete",
@@ -125,6 +132,13 @@
                         "color": "blue",
                         "page": "friendspage"
                     },
+                    {
+                        "type": "button",
+                        "name": "Groups",
+                        "icon": "fa-weixin",
+                        "color": "wisteria",
+                        "page": "groupspage"
+                    },                      
                     {
                         "type": "button",
                         "name": "Location",
